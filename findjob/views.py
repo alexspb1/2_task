@@ -3,3 +3,6 @@ from django.http import HttpResponse,HttpResponseBadRequest, HttpResponseNotFoun
 
 def main_view(request):
     return HttpResponse('Hi')
+
+def new_view(request):
+    return HttpResponse('Hi')
